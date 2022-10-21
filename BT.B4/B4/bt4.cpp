@@ -2,18 +2,15 @@
 #include <math.h>
 int main(){
 	int n;
-	scanf("%d",&n);
-	int i=2;
-	int h=0;
-	while(i<=sqrt(n)){
-		if(n%i==0){
-			h++;	
+	do{
+		printf("Nhap N la so khac 0");
+		scanf("%d",&n);
+	}while(n==0);
+		int x=0;
+		while(n!=0){
+			int sd=n%10;
+			x=x*10+sd;
+			n=n/10;	
 		}
-		i++;
-	}
-	if(h==0){
-		printf("n la so nguyen to");
-	}else{
-		printf("n ko la so nguyen to");
-	}
+		printf("So nguoc cua n la %d",x);
 }
