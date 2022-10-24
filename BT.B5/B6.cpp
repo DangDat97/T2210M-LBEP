@@ -6,8 +6,6 @@ int main(){
 	do{
 		printf("Nhap N lon hon 0 \n");
 		scanf("%d",&n);
-		int f=0;
-		int f1=1;
 		
 		
 	}while(n<=0);
