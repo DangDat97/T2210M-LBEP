@@ -19,6 +19,13 @@ int main(){
 		printf("ko la SCP \n");
 	}
 	
+	if(ktrSN(569)){
+		printf("giam dan tu trai sang phai \n");
+	}else{
+		printf("Ko giam dan tu trai sang phai \n");
+	}
+	
+	
 	int y=findN(0);
 	printf("%d la so be nhat 1+2+3+...+n <1000 \n",y);
 }
