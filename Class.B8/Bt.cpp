@@ -40,7 +40,7 @@ float tslcc(int arr[],int n) {
  int i;
  int d=0;
  float tbc, sum = 0.0;
- for (i = n; i >= 0; i--) {
+ for (i = n-1; i >= 0; i--) {
  	if(arr[i]%2!=0){
  		return arr[i]; 
 	}
